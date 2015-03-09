@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ForName">
+    <item>За інгредієнтами</item>
+    <item>За категорією</item>
+    <item>Вихід</item>
+</string-array>
+
+<string-array name="ForGroup">
+    <item>За інгредієнтами</item>
+    <item>За назвою</item>
+    <item>Вихід</item>
+</string-array>
+
+<string-array name="ForIngrid">
+    <item>За назвою</item>
+    <item>За категорією</item>
+    <item>Вихід</item>
+</string-array>
+</resources>
