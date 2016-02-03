@@ -1,0 +1,395 @@
+<android.support.v4.widget.DrawerLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    >
+ 
+    <!-- Область контента, текст в ней -->
+    <FrameLayout
+        android:id="@android:id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:adjustViewBounds="true"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:orientation="vertical" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginTop="2dp"
+    android:adjustViewBounds="true"
+    android:orientation="horizontal"
+    android:weightSum="100" 
+    android:baselineAligned="false">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="1dp"
+        android:layout_weight="50"
+        android:adjustViewBounds="true"
+        android:background="#FFF"
+        android:onClick="Img1" >
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_gravity="top"
+         android:adjustViewBounds="true"
+         android:src="@drawable/pershi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:background="#7000"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="Перші страви"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:textStyle="italic|bold"
+        android:typeface="serif" />
+
+</RelativeLayout>
+   
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_weight="50"
+    android:adjustViewBounds="true"
+    android:background="#FFF"
+        android:onClick="Img2" >
+
+      <ImageView
+          android:id="@+id/imageView2"
+          android:layout_width="wrap_content"
+          android:layout_height="fill_parent"
+          android:layout_alignParentTop="true"
+          android:layout_marginLeft="1dp"
+          android:adjustViewBounds="true"
+          android:scaleType="centerCrop"
+          android:src="@drawable/drygi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:background="#7000"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="Другі страви"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:textStyle="italic|bold"
+        android:typeface="serif" />
+
+</RelativeLayout>
+   
+    
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:adjustViewBounds="true"
+    android:orientation="horizontal"
+    android:weightSum="100" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="1dp"
+        android:layout_weight="50"
+        android:adjustViewBounds="true"
+        android:background="#FFF"
+        android:onClick="Img3" >
+
+      <ImageView
+          android:id="@+id/imageView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:adjustViewBounds="true"          
+        android:src="@drawable/vupichka" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:background="#7000"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="Випічка"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:textStyle="italic|bold"
+        android:typeface="serif" />
+
+</RelativeLayout>
+    
+
+    <RelativeLayout
+   android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:adjustViewBounds="true"
+        android:layout_marginLeft="1dp"
+        android:background="#FFF"
+        android:onClick="Img4" >
+
+      <ImageView
+          android:id="@+id/imageView4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:adjustViewBounds="true"
+          android:src="@drawable/puba" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:background="#7000"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="Рибні страви"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:textStyle="italic|bold"
+        android:typeface="serif" />
+
+</RelativeLayout>
+
+    
+  </LinearLayout>
+  
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:adjustViewBounds="true"
+    android:orientation="horizontal"
+    android:weightSum="100" >
+
+    <RelativeLayout
+     android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="50"
+        android:adjustViewBounds="true"        
+        android:layout_marginRight="1dp"
+        android:background="#FFF"
+        android:onClick="Img5" >
+
+     <ImageView
+         android:id="@+id/imageView5"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentTop="true"
+         android:adjustViewBounds="true"
+         android:src="@drawable/salat" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView5"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:background="#7000"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="Салати"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:textStyle="italic|bold"
+        android:typeface="serif" />
+
+</RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="50"
+        android:adjustViewBounds="true"
+        android:background="#FFF"
+        android:onClick="Img6" >
+
+      <ImageView
+          android:id="@+id/imageView6"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:adjustViewBounds="true"
+        android:src="@drawable/desert" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView6"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:background="#7000"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="Десерти"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:textStyle="italic|bold"
+        android:typeface="serif" />
+
+</RelativeLayout>
+
+    
+  </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:adjustViewBounds="true"
+    android:orientation="horizontal"
+    android:weightSum="100" >
+
+    <RelativeLayout
+     android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="50"
+        android:adjustViewBounds="true"
+        android:background="#FFF"
+        android:onClick="Img7" >
+
+      <ImageView
+          android:id="@+id/imageView7"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentTop="true"
+          android:scaleType="centerCrop"
+          android:layout_marginRight="1dp"
+          android:adjustViewBounds="true"
+          android:src="@drawable/soys" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView7"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:background="#7000"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="Соуси"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:textStyle="italic|bold"
+        android:typeface="serif" />
+
+</RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="50"
+        android:adjustViewBounds="true"
+        android:background="#FFF"
+        android:onClick="Img8" >
+
+      <ImageView
+          android:id="@+id/imageView8"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:scaleType="centerCrop"
+          android:adjustViewBounds="true"
+          android:src="@drawable/napoi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView8"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:background="#7000"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="Напої"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:textStyle="italic|bold"
+        android:typeface="serif" />
+
+</RelativeLayout>
+
+     </LinearLayout>
+  </LinearLayout>
+  </ScrollView>
+</LinearLayout>
+ 
+    </FrameLayout>
+ 
+    <!-- Меню drawer-а -->
+    <ListView
+        android:id="@+id/list_menu"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#c1b4a2"
+        android:textColor="@android:color/white"
+    />
+    
+ 
+</android.support.v4.widget.DrawerLayout>
+    
+
