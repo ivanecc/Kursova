@@ -2,6 +2,12 @@ Time to cook
 =============
 Мій курсовий проект.
 
+![Image alt](https://github.com/IvanKalabanan/Kursova/raw/With_refresh//s1.png)
+![Image alt](https://github.com/IvanKalabanan/Kursova/raw/With_refresh//s4.png)
+
+![Image alt](https://github.com/IvanKalabanan/Kursova/raw/With_refresh//s3.png)
+![Image alt](https://github.com/IvanKalabanan/Kursova/raw/With_refresh//s2.png)
+
 Додаток допомагає у виборі страви для приготування. 
 Містить три критерія для пошуку, а саме :
 1. Просто увесь список страв, які є у базі даних додатку. Містить пошук по назві
